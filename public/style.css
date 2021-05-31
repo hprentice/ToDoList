@@ -1,0 +1,41 @@
+body{
+	background-color: #ededed;
+}
+
+ul{
+	list-style-type: none;
+	padding-top: 20px;
+}
+
+li{
+	margin: 20px;
+	display: grid;
+	grid-template-columns: 60% 20% 20%;
+	padding: 10px;
+	padding-top: 15px;
+	padding-left: 20px;
+	border-radius: 20px;
+}
+
+li:nth-child(odd) {
+  background: #ccc;
+}
+
+.add_form, h2{
+	display: grid;
+	justify-content: center;
+	margin-top:30px;
+}
+
+.add_form h2{
+	margin-top:50px;
+}
+
+.add_form input{
+	margin: 10px;
+}
+
+.add_btn{
+	margin-left: 60px;
+	margin-top: 10px;
+}
